@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
  */
 class SimpleAjaxUploaderAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/simple-ajax-uploader';
+    public $sourcePath = '@vendor/lpology/simple-ajax-uploader';
 
     /**
      * @inheritdoc

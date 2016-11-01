@@ -8,9 +8,15 @@
         "simple-ajax-uploader"
     ],
     "type": "yii2-extension",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/maxeko/Simple-Ajax-Uploader"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "^2.0",
-        "bower-asset/simple-ajax-uploader": "~2.5.0"
+        "lpology/simple-ajax-uploader": "*"
     },
     "license": "MIT",
     "authors": [

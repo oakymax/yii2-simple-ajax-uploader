@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98bd852c1abcbb53c32ee84058fa2240",
-    "content-hash": "804d7f0ab94d32fab3eca67ad6b6619c",
+    "hash": "45ed8792e770bbf762af5b678ed7f1f5",
+    "content-hash": "679543d6ee47c69eef7da5a506da5138",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -111,40 +111,6 @@
                     "package.json"
                 ]
             }
-        },
-        {
-            "name": "bower-asset/simple-ajax-uploader",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/LPology/Simple-Ajax-Uploader.git",
-                "reference": "3549d66f9270e65f448d5cc7c2af1867b782b968"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/LPology/Simple-Ajax-Uploader/zipball/3549d66f9270e65f448d5cc7c2af1867b782b968",
-                "reference": "3549d66f9270e65f448d5cc7c2af1867b782b968",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "SimpleAjaxUploader.js",
-                "branch-alias": {
-                    "dev-master": "2.5.5-dev"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A Javascript plugin for cross-browser Ajax file uploading. Supports drag and drop, CORS, and multiple file uploading with progress bars. Works in IE7-9, mobile, and all modern browsers.",
-            "keywords": [
-                "ajax",
-                "cors",
-                "cross-browser",
-                "php",
-                "upload"
-            ],
-            "time": "2016-04-18 07:08:48"
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -283,6 +249,36 @@
                 "html"
             ],
             "time": "2016-07-16 12:58:58"
+        },
+        {
+            "name": "lpology/simple-ajax-uploader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxeko/Simple-Ajax-Uploader.git",
+                "reference": "8229ca9574a9febd0c7829686b7c83c005315f14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxeko/Simple-Ajax-Uploader/zipball/8229ca9574a9febd0c7829686b7c83c005315f14",
+                "reference": "8229ca9574a9febd0c7829686b7c83c005315f14",
+                "shasum": ""
+            },
+            "type": "javascript plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "LPology",
+                    "email": "info@lpology.com"
+                }
+            ],
+            "description": "Javascript file upload plugin with progress bar support. Works in all major browsers, including IE7+, Chrome, Firefox, Safari, and Opera. No dependencies - use it with or without jQuery.",
+            "support": {
+                "source": "https://github.com/maxeko/Simple-Ajax-Uploader/tree/master"
+            },
+            "time": "2016-11-01 21:02:55"
         },
         {
             "name": "yiisoft/yii2",
