@@ -20,7 +20,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "maxeko\\lpology": "" }
+        "psr-4": { "maxeko\\lpology\\": "" }
     },
     "minimum-stability": "dev"
 }
