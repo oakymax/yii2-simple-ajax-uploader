@@ -1,0 +1,26 @@
+{
+    "name": "maxeko/yii2-simple-ajax-uploader",
+    "description": "LPology Simple Ajax Uploader widget for Yii2",
+    "keywords": [
+        "yii2",
+        "extension",
+        "widget",
+        "simple-ajax-uploader"
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/simple-ajax-uploader": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Korshunov",
+            "email": "korshunov.m.e@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "maxeko\\lpology": "" }
+    },
+    "minimum-stability": "dev"
+}
