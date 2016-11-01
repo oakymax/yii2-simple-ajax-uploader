@@ -10,7 +10,7 @@ use yii\helpers\Json;
  *
  * @author Maxim Korshunov <korshunov.m.e@gmail.com>
  */
-class SimpleAjaxUploaderWidget extends Widget
+class SimpleAjaxUploader extends Widget
 {
     /**
      * @var array $options https://www.lpology.com/code/ajaxuploader/docs.php
