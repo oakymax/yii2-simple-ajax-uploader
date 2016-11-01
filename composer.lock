@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e98dea90d8d18e95948f19db0f3f6626",
-    "content-hash": "7d9df6ecbb208d3e085e4bbca2f42d6c",
+    "hash": "98bd852c1abcbb53c32ee84058fa2240",
+    "content-hash": "804d7f0ab94d32fab3eca67ad6b6619c",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -283,27 +283,6 @@
                 "html"
             ],
             "time": "2016-07-16 12:58:58"
-        },
-        {
-            "name": "lpology/simple-ajax-uploader",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/maxeko/Simple-Ajax-Uploader.git",
-                "reference": "8229ca9574a9febd0c7829686b7c83c005315f14"
-            },
-            "type": "javascript plugin",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "LPology",
-                    "email": "info@lpology.com"
-                }
-            ],
-            "description": "Javascript file upload plugin with progress bar support. Works in all major browsers, including IE7+, Chrome, Firefox, Safari, and Opera. No dependencies - use it with or without jQuery.",
-            "time": "2016-11-01 21:02:55"
         },
         {
             "name": "yiisoft/yii2",
