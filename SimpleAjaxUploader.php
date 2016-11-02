@@ -7,13 +7,14 @@ use yii\helpers\Json;
 
 /**
  * SimpleAjaxUploader Widget
+ * https://www.lpology.com/code/ajaxuploader/docs.php
  *
  * @author Maxim Korshunov <korshunov.m.e@gmail.com>
  */
 class SimpleAjaxUploader extends Widget
 {
     /**
-     * @var array $options https://www.lpology.com/code/ajaxuploader/docs.php
+     * @var array $options
      */
     public $options = [];
 
@@ -26,7 +27,11 @@ class SimpleAjaxUploader extends Widget
 
         SimpleAjaxUploaderAsset::register($this->view);
 
-        $jsOptions = Json::encode($this->options);
-        $view->registerJs("new ss.SimpleUpload({$jsOptions});");
+        $jsOptions = [];
+        foreach ($this->options as $key => $value) {
+            $jsOptions[] = "{$key}:{$value}";
+        }
+        $jsOptions = join(',', $jsOptions);
+        $view->registerJs("new ss.SimpleUpload({{$jsOptions}});");
     }
 }
