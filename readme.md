@@ -17,11 +17,15 @@ Put this in your view where you want to use IPology Simple Ajax Uploader:
 <?php use maxeko\lpology\SimpleAjaxUploader; ?>
 
 <?= SimpleAjaxUploader::widget([
-    'options' => [
+    'settings' => [
         'button' => '<file upload button>',
         'url' => '<location of the server-side file upload handler>',
         'name' => '<upload parameter name>',
-        // and any other options form https://www.lpology.com/code/ajaxuploader/docs.php
+        // and any other string-value options form https://www.lpology.com/code/ajaxuploader/docs.php
+    ], 
+    'callbacks' => [
+        'onComplete' => '<js function name>',
+        // and any other js-value options form https://www.lpology.com/code/ajaxuploader/docs.php    
     ]
 ]) ?>
 ```

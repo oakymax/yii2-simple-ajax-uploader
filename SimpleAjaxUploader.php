@@ -14,9 +14,14 @@ use yii\helpers\Json;
 class SimpleAjaxUploader extends Widget
 {
     /**
-     * @var array $options
+     * @var array $settings
      */
-    public $options = [];
+    public $settings = [];
+
+    /**
+     * @var array $callbacks
+     */
+    public $callbacks = [];
 
     /**
      * @inheritdoc
@@ -28,7 +33,10 @@ class SimpleAjaxUploader extends Widget
         SimpleAjaxUploaderAsset::register($this->view);
 
         $jsOptions = [];
-        foreach ($this->options as $key => $value) {
+        foreach ($this->settings as $key => $value) {
+            $jsOptions[] = "{$key}:\"{$value}\"";
+        }
+        foreach ($this->callbacks as $key => $value) {
             $jsOptions[] = "{$key}:{$value}";
         }
         $jsOptions = join(',', $jsOptions);
